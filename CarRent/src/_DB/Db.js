@@ -16,7 +16,7 @@ export const populars = [
       color: "black",
       gearbox: "Manual",
       engineSize: "4.0L V8",
-      hourlyRentPrice: "$50/hour",
+      hourlyRentPrice: "Rs.50/hour",
     },
     {
       name: "Range Rover Sport",
@@ -38,7 +38,7 @@ export const populars = [
       color: "white",
       gearbox: "Automatic",
       engineSize: "2.0L inline-4",
-      hourlyRentPrice: "$60/hour",
+      hourlyRentPrice: "Rs.60/hour",
     },
     {
       name: "Accord Sedan",
@@ -49,7 +49,7 @@ export const populars = [
       color: "gray",
       gearbox: "Automatic",
       engineSize: "2.4L inline-4",
-      hourlyRentPrice: "$55/hour",
+      hourlyRentPrice: "Rs.55/hour",
     },
     {
       name: "Ferrari Purosangue",
@@ -60,7 +60,7 @@ export const populars = [
       color: "yellow",
       gearbox: "Automatic",
       engineSize: "3.9L V8",
-      hourlyRentPrice: "$150/hour",
+      hourlyRentPrice: "Rs.150/hour",
     },
     {
       name: "Nissan FRS Scion",
@@ -71,7 +71,7 @@ export const populars = [
       color: "yellow",
       gearbox: "Manual",
       engineSize: "2.0L inline-4",
-      hourlyRentPrice: "$65/hour",
+      hourlyRentPrice: "Rs.65/hour",
     },
   ];
   
