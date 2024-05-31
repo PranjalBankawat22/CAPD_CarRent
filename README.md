@@ -41,9 +41,6 @@ To run the Car Rental App locally on your development machine, follow these step
   3. Navigate to the project directory and install the project dependencies by running: `expo install`
   4. Start the development server: `npx expo start`. This command will launch the Expo development server and provide you with options to run the app on an emulator, physical device, or web browser.
 
-## Contributing
 
-Contributions to the Car Rental App project are welcome! 
-First, you can check all open issues and try to solve them. If you encounter any bugs, have suggestions for improvements, or would like to add new features, please feel free to open an issue or submit a pull request.
 
 
