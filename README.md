@@ -1,9 +1,13 @@
 # Car Rental App
 
 ![image1](./CarRent/assets/image1.png)
+
 ![image2](./CarRent/assets/image2.png)
+
 ![image3](./CarRent/assets/image3.png)
+
 ![image4](./CarRent/assets/image4.png)
+
 ![image5](./CarRent/assets/image5.png)
 
 Welcome to the Car Rental App repository! This is a mobile application built using React Native, Sanity.io, and Socket.io. The app allows users to browse and rent cars, chat with other users and car renters, and explore various settings and search options.
