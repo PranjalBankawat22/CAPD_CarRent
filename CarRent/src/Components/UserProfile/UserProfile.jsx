@@ -71,10 +71,10 @@ const UserProfile = () => {
           }}
         />
         <Text className="font-bold text-gray-700 text-2xl text-center">
-          Amos Kyalo
+          Mahima M Nayak
         </Text>
         <Text className="text-center text-gray-600 text-sm">
-          amoskyalo927@gmail.com
+          mahimamnayak@gmail.com
         </Text>
       </View>
 
