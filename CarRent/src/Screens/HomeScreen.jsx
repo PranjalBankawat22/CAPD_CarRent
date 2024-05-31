@@ -62,7 +62,7 @@ const HomeScreen = () => {
             <Image
               className="h-8 w-8 rounded-full"
               source={{
-                uri: "https://avatars.githubusercontent.com/u/91586973?v=4",
+                uri: "https://p1.hiclipart.com/preview/677/263/683/picsart-background-png-clipart.jpg",
               }}
             />
           </TouchableOpacity>

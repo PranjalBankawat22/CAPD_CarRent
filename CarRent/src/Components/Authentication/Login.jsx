@@ -22,7 +22,7 @@ const Login = () => {
     <View style={{ flex: 1, position: "relative", marginTop: 24 }}>
       <Image
         source={{
-          uri: "https://avatars.githubusercontent.com/u/91586973?v=4",
+          uri: "https://p1.hiclipart.com/preview/677/263/683/picsart-background-png-clipart.jpg",
         }}
         className="h-24 w-24 rounded-full mx-auto"
       />

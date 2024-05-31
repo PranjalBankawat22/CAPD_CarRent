@@ -67,7 +67,7 @@ const UserProfile = () => {
         <Image
           className="h-24 w-24 mx-auto rounded-full"
           source={{
-            uri: "https://avatars.githubusercontent.com/u/91586973?v=4",
+            uri: "https://p1.hiclipart.com/preview/677/263/683/picsart-background-png-clipart.jpg",
           }}
         />
         <Text className="font-bold text-gray-700 text-2xl text-center">
