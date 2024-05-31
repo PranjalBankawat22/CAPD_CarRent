@@ -9,6 +9,8 @@ import Chat from "./src/Screens/Chat";
 import SingleChart from "./src/Components/SingleChart/SingleChart";
 import CarDetailed from "./src/Components/CarDetailed/CarDetailed";
 import PayCar from "./src/Components/PayCar/PayCar";
+import Checkout from "./src/Screens/Checkout";
+import OrderSuccessful from "./src/Screens/Order";
 import Onboarding from "./src/Screens/Onboarding";
 import Login from "./src/Components/Authentication/Login";
 import { data } from "./src/Components/Charts.jsx/Data";
@@ -136,6 +138,18 @@ export default function App() {
             options={{
               headerShown: false,
             }}
+          />
+          <Stack.Screen 
+            name="PaymentMethods" 
+            component={Checkout}
+            options={{
+              headerShown: false,
+            }} 
+          />
+          <Stack.Screen
+           name="OrderSuccessful" 
+           component={OrderSuccessful} 
+           options={{ headerShown: false }} 
           />
         </Stack.Navigator>
       </NavigationContainer>

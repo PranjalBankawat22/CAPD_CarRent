@@ -8,9 +8,10 @@ const PayCar = () => {
   const navigation = useNavigation();
   const route = useRoute();
   
-  const { name, carId, image, address } = route.params;
+  const { name, carId, image, address, paymentMethod } = route.params;
 
-  const [shippingAddress, setShippingAddress] = useState(address);
+  const [shippingAddress, setShippingAddress] = useState("address");
+  const [selectedPaymentMethod, setSelectedPaymentMethod] = useState(paymentMethod || 'wallet');
 
 
   const [order] = useState({
@@ -25,6 +26,8 @@ const PayCar = () => {
 
   const handleContinueToPaymentPress = () => {
     // Logic to continue to payment
+    navigation.navigate('PaymentMethods');
+    
   };
 
   const handleCheckout = () => {
@@ -32,6 +35,7 @@ const PayCar = () => {
     console.log('Name:', name);
     console.log('Email:', email);
     console.log('Address:', address);
+    console.log('Payment Method:', selectedPaymentMethod);
   };
 
   const { height } = Dimensions.get('screen');
@@ -101,6 +105,7 @@ const PayCar = () => {
           <Text style={styles.summaryText}>Amount: ${order.price.toLocaleString()}</Text>
           <Text style={styles.summaryText}>Tax: ${order.tax.toLocaleString()}</Text>
         </View>
+      
         <Button mode="contained" onPress={handleContinueToPaymentPress} style={styles.continueButton}>
           Continue to Payment
         </Button>
@@ -208,6 +213,7 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     backgroundColor: '#007bff',
   },
+
 });
 
 export default PayCar;
